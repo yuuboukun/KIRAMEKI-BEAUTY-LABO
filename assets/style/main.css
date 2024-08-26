@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+------------------------------------------ */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+/* スムーススクロールの設定 */
+html {
+	scroll-behavior: smooth;
+}
+
+/* 部品
+------------------------------------------ */
+
+/* ヘッダー
+------------------------------------------ */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  height: 63px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 95px;
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 9px;
+  height: 100%;
+}
+
+.header__logo {
+  width: 74px;
+}
+
+.header__btn-list {
+  display: flex;
+  gap: 2.564vw;
+}
+
+.header__btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  height: 31px;
+  border-radius: 20px;
+}
+
+.header__btn-item--contact {
+  background-color: #fa7da3;
+  width: 107px;
+}
+
+.header__btn-item--reservation {
+  background-color: #49c43d;
+  width: 173.77px;
+}
+
+.header__btn-link {
+  color: #fff;
+}
+
+.header__btn-link .bi {
+  margin-left: 7px;
+}
+
+.header__btn--free {
+  font-size: 10px;
+}
+
