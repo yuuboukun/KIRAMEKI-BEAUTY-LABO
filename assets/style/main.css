@@ -160,6 +160,12 @@ html {
     object-fit: cover;
 }
 
+@media (min-width: 768px) {
+    .hero__image {
+        height: 612px;
+    }
+}
+
 .hero__content {
     position: absolute;
     top: 0;
@@ -170,25 +176,58 @@ html {
     align-items: flex-start;
 }
 
+@media (min-width: 768px) {
+    .hero__content {
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
 .hero__head {
     width: 203px;
     color: #fff;
     padding-top: 23px;
-    /* padding-left: 20px; */
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .hero__head {
+        width: 490px;
+    }
 }
 
 .hero__title {
     font-size: 42px;
     font-weight: 400;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+
+@media (min-width: 768px) {
+    .hero__title {
+        font-size: 122.15px;
+        margin-bottom: 17px;
+    }
 }
 
 .hero__note {
     font-size: 18px;
 }
 
+@media (min-width: 768px) {
+    .hero__note {
+        font-size: 36px;
+    }
+}
+
 .hero__body {
     width: 188px;
+}
+
+@media (min-width: 768px) {
+    .hero__body {
+        width: 423.02px;
+    }
 }
 
 .hero__special-price {
@@ -199,6 +238,12 @@ html {
     justify-content: center;
     align-items: center;
     box-shadow: 3.536px 3.536px 0px 0px rgba(0, 0, 0, .25);
+}
+
+@media (min-width: 768px) {
+    .hero__special-price {
+        height: 222px;
+    }
 }
 
 .hero__limited {
@@ -221,12 +266,26 @@ html {
     background-color: #fff;
 }
 
+@media (min-width: 768px) {
+    .hero__only-now {
+        width: 105.76px;
+        height: 51.65px;
+        font-size: 29.25px;
+    }
+}
+
 .hero__first-month {
     display: block;
     font-size: 24px;
     font-weight: bold;
     color: #fff;
     line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .hero__first-month {
+        font-size: 54px;
+    }
 }
 
 .hero__price {
@@ -239,8 +298,20 @@ html {
     font-size: 76px;
 }
 
+@media (min-width: 768px) {
+    .hero__num {
+        font-size: 171px;
+    }
+}
+
 .hero__yen {
     font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    .hero__yen {
+        font-size: 81px;
+    }
 }
 
 .hero__per-month {
@@ -253,6 +324,60 @@ html {
     font-family: 'Outfit', sans-serif;
 }
 
+@media (min-width: 768px) {
+    .hero__per-month {
+        font-size: 26.48px;
+        margin-top: 14px;
+        margin-right: 52px;
+        margin-bottom: 54px;
+    }
+}
+
 .hero__unit {
     font-size: 9px;
+}
+
+@media (min-width: 768px) {
+    .hero__unit {
+        font-size: 17.02px;
+    }
+}
+
+.hero__privilege {
+    width: 133px;
+    margin-right: 26px;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .hero__privilege {
+        width: 100%;
+    }
+}
+
+.hero__privilege-item {
+    font-size: 18px;
+    height: 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .hero__privilege-item {
+        height: 70px;
+        font-size: 28px;
+    }
+}
+
+.hero__privilege-item + .hero__privilege-item {
+    margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+    .hero__privilege-item + .hero__privilege-item {
+        margin-top: 20px;
+    }
 }
