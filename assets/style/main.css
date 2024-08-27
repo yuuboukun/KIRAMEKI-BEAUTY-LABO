@@ -179,7 +179,7 @@ html {
 @media (min-width: 768px) {
     .hero__content {
         justify-content: center;
-        gap: 25px;
+        gap: 2.63vw;
     }
 }
 
@@ -192,7 +192,8 @@ html {
 
 @media (min-width: 768px) {
     .hero__head {
-        width: 490px;
+        max-width: 490px;
+        width: 100%;
     }
 }
 
@@ -205,7 +206,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__title {
-        font-size: 122.15px;
+        font-size: clamp(89.34px, 11.633vw, 122.15px);
         margin-bottom: 17px;
     }
 }
@@ -216,7 +217,8 @@ html {
 
 @media (min-width: 768px) {
     .hero__note {
-        font-size: 36px;
+        font-size: clamp(30px, 3.789vw, 36px);
+        text-align: right;
     }
 }
 
@@ -226,7 +228,8 @@ html {
 
 @media (min-width: 768px) {
     .hero__body {
-        width: 423.02px;
+        max-width: 423.02px;
+        width: 100%;
     }
 }
 
@@ -268,9 +271,10 @@ html {
 
 @media (min-width: 768px) {
     .hero__only-now {
-        width: 105.76px;
+        max-width: 105.76px;
+        width: 100%;
         height: 51.65px;
-        font-size: 29.25px;
+        font-size: clamp(23.646px, 3.7895vw, 29.25px);
     }
 }
 
@@ -284,7 +288,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__first-month {
-        font-size: 54px;
+        font-size: clamp(43.65px, 5.684vw, 54px);
     }
 }
 
@@ -300,7 +304,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__num {
-        font-size: 171px;
+        font-size: clamp(138px, 18vw, 171px);
     }
 }
 
@@ -310,7 +314,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__yen {
-        font-size: 81px;
+        font-size: clamp(65.48px, 8.526vw, 81px);
     }
 }
 
@@ -380,4 +384,111 @@ html {
     .hero__privilege-item + .hero__privilege-item {
         margin-top: 20px;
     }
+}
+
+/* スペシャルオファー */
+.hero__special-offer {
+    background-color: #fffedd;
+    height: 191px;
+    padding-top: 25px;
+    padding-bottom: 37px;
+}
+
+@media (min-width: 768px) {
+    .hero__special-offer {
+        height: 315px;
+    }
+}
+
+.hero__limited-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #fa7da3;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    .hero__limited-time {
+        font-size: 34px;
+    }
+}
+
+.hero__limited-time::before,
+.hero__limited-time::after {
+    width: 2px;
+    height: 27px;
+    content: '';
+    background-color: #fa7da3;
+}
+
+@media (min-width: 768px) {
+    .hero__limited-time::before,
+    .hero__limited-time::after {
+        width: 3.27px;
+        height: 44.2px;
+    }
+}
+
+.hero__limited-time::before {
+    margin-right: 7px;
+    transform: rotate(-30deg);
+}
+
+@media (min-width: 768px) {
+    .hero__limited-time::before {
+        margin-right: 10px;
+    }
+}
+
+.hero__limited-time::after {
+    margin-left: 9px;
+    transform: rotate(30deg);
+}
+
+@media (min-width: 768px) {
+    .hero__limited-time::after {
+        margin-left: 14px;
+    }
+}
+
+.hero__privilege-detail {
+    width: 350px;
+    height: 93px;
+    border-radius: 10px;
+    border: 1px solid #FA7DA3;
+    margin: auto;
+    background-color: #fff;
+}
+
+.hero__privilege-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    font-size: 21px;
+    background-color: #fa7da3;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.hero__privilege-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    font-size: 27px;
+    color: #fa7da3;
+}
+
+.hero__previlege-num {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.hero__treatment-list {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
