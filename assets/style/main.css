@@ -28,6 +28,61 @@ html {
 
 /* 部品
 ------------------------------------------ */
+/* 無料体験予約ボタン */
+.free-trial__title {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fa7da3;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+    .free-trial__title {
+        font-size: 34px;
+        margin-bottom: 21px;
+    }
+}
+
+.free-trial__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    background-color: #49c43d;
+    border-radius: 70px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .free-trial__btn {
+        width: 570.58px;
+        height: 130.1px;
+    }
+}
+
+.free-trial__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .free-trial__link {
+        font-size: 34px;
+    }
+}
+
+.free-trial__text {
+    margin-right: 31px;
+}
+
+.free-trial__line {
+    display: block;
+}
 
 /* ヘッダー
 ------------------------------------------ */
@@ -397,6 +452,8 @@ html {
 @media (min-width: 768px) {
     .hero__special-offer {
         height: 315px;
+        padding-top: 49px;
+        padding-bottom: 26px;
     }
 }
 
@@ -412,6 +469,7 @@ html {
 @media (min-width: 768px) {
     .hero__limited-time {
         font-size: 34px;
+        margin-bottom: 25px;
     }
 }
 
@@ -462,6 +520,13 @@ html {
     background-color: #fff;
 }
 
+@media (min-width: 768px) {
+    .hero__privilege-detail {
+        width: 550px;
+        height: 148px;
+    }
+}
+
 .hero__privilege-title {
     display: flex;
     justify-content: center;
@@ -473,6 +538,13 @@ html {
     border-radius: 10px 10px 0 0;
 }
 
+@media (min-width: 768px) {
+    .hero__privilege-title {
+        font-size: 32px;
+        height: 47px;
+    }
+}
+
 .hero__privilege-content {
     display: flex;
     justify-content: center;
@@ -482,13 +554,94 @@ html {
     color: #fa7da3;
 }
 
+@media (min-width: 768px) {
+    .hero__privilege-content {
+        font-size: 43.67px;
+        height: 101px;
+    }
+}
+
 .hero__previlege-num {
     font-size: 42px;
     font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .hero__previlege-num {
+        font-size: 67.93px;
+    }
 }
 
 .hero__treatment-list {
     font-size: 10px;
     text-align: center;
     margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .hero__treatment-list {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+/* 無料体験予約 */
+.hero__free-trial {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hero__trial-content {
+    width: 350px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .hero__trial-content {
+        width: 570.58px;
+    }
+}
+
+.hero__trial-content-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #50bfff;
+    border-top: 1px solid #50bfff;
+    border-bottom: 1px solid #50bfff;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+
+@media (min-width: 768px) {
+    .hero__trial-content-title {
+        font-size: 28px;
+        padding-top: 17px;
+        padding-bottom: 19px;
+        margin-top: 46px;
+        margin-bottom: 24px;
+    }
+}
+
+.hero__trial-content-detail {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+    .hero__trial-content-detail {
+        font-size: 22.86px;
+    }
+}
+
+.hero__trial-time {
+    font-size: 11px;
+}
+
+@media (min-width: 768px) {
+    .hero__trial-time {
+        font-size: 17.96px;
+    }
 }
