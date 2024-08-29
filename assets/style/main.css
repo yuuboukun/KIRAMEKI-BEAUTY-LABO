@@ -668,11 +668,24 @@ html {
     padding-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+    .point {
+        padding-top: 54px;
+        padding-bottom: 61px;
+    }
+}
+
 .section__sub-title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .section__sub-title {
+        margin-bottom: 27px;
+    }
 }
 
 .point__title-text {
@@ -746,4 +759,43 @@ html {
     border-color: #433e3f;
     background-color: #fdf0f5;
     font-size: 18px;
+}
+
+.point__choose-plan {
+    margin-bottom: 30px;
+}
+
+.point__item-plan-title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4d2c1c;
+    margin-top: 18px;
+    margin-bottom: 29px;
+}
+
+.point__whole-img {
+    display: block;
+    width: 311px;
+    margin: auto;
+    margin-bottom: 51px;
+}
+
+.point__part-images {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 31px;
+    margin-bottom: 21px;
+}
+
+.point__part-img {
+    width: 100px;
+}
+
+.point__support-text {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    padding-top: 0;
 }
