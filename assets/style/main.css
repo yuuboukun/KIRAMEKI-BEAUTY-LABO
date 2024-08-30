@@ -666,12 +666,13 @@ html {
     background-color: #fdf0f5;
     padding-top: 41px;
     padding-bottom: 30px;
+    margin-bottom: 31px;
 }
 
 @media (min-width: 768px) {
     .point {
         padding-top: 54px;
-        padding-bottom: 61px;
+        margin-bottom: 62px;
     }
 }
 
@@ -699,6 +700,12 @@ html {
     margin: auto;
 }
 
+@media (min-width: 768px) {
+    .point__content {
+        width: 780px;
+    }
+}
+
 .point__item {
     border: 1px solid #fa7da3;
     border-radius: 10px;
@@ -722,11 +729,27 @@ html {
     font-weight: 400;
 }
 
+@media (min-width: 768px) {
+    .point__item-title {
+        font-size: 28px;
+        height: 74px;
+    }
+}
+
 .point__item-text {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .point__item-text {
+        margin-top: 33px;
+        margin-right: 39px;
+        margin-left: 41px;
+        font-size: 21px;
+    }
 }
 
 .point__item-course {
@@ -737,8 +760,17 @@ html {
 
 .point__item-course-desc {
     font-size: 14px;
-    padding-top: 9px;
-    padding-bottom: 21px;
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+
+@media (min-width: 768px) {
+    .point__item-course-desc {
+        font-size: 21px;
+        margin-top: 16px;
+        margin-bottom: 43px;
+        text-align: center;
+    }
 }
 
 .point__item-box {
@@ -749,6 +781,14 @@ html {
     align-items: center;
     border: 1px solid #fa7da3;
     margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+    .point__item-box {
+        width: 230px;
+        height: 136px;
+        margin-top: 28px;
+    }
 }
 
 .point__logo-img {
@@ -774,11 +814,26 @@ html {
     margin-bottom: 29px;
 }
 
+@media (min-width: 768px) {
+    .point__item-plan-title {
+        font-size: 24px;
+        margin-top: 13px;
+        margin-bottom: 24px;
+    }
+}
+
 .point__whole-img {
     display: block;
     width: 311px;
     margin: auto;
     margin-bottom: 51px;
+}
+
+@media (min-width: 768px) {
+    .point__whole-img {
+        width: 533px;
+        margin-bottom: 62px;
+    }
 }
 
 .point__part-images {
@@ -790,12 +845,68 @@ html {
     margin-bottom: 21px;
 }
 
+@media (min-width: 768px) {
+    .point__part-images {
+        margin-bottom: 38px;
+    }
+}
+
 .point__part-img {
     width: 100px;
+}
+
+.point__part-img-txt {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
 }
 
 .point__support-text {
     margin-top: 20px;
     margin-bottom: 14px;
-    padding-top: 0;
+}
+
+@media (min-width: 768px) {
+    .point__support-text {
+        margin-top: 34px;
+        margin-bottom: 21px;
+    }
+}
+
+/* コース
+------------------------------------------ */
+.course {
+    margin-top: 50px;
+}
+
+.section__sub-title {
+    font-size: 18px;
+}
+
+.course__content {
+    width: 350px;
+    margin: 24px auto 20px;
+}
+
+.course__item {
+    border: 1px solid #FA7DA3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.course__item-title {
+    font-size: 18px;
+    color: #fa7da3;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.course__item-content {
+    width: 310px;
+    margin: 20px auto;
+}
+
+.course__item-txt {
+    font-size: 14px;
+    margin-bottom: 3px;
 }
