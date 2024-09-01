@@ -124,7 +124,7 @@ html {
 
 @media (min-width: 768px) {
     .header {
-        height: 95px;
+        height: 5.75rem;
     }
 }
 
@@ -151,7 +151,9 @@ html {
 
 @media (min-width: 768px) {
     .header__logo {
-        width: 102px;
+        width: 98px;
+        padding-left: 4px;
+        padding-top: 3px;
     }
 }
 
@@ -162,7 +164,7 @@ html {
 
 @media (min-width: 768px) {
     .header__btn-list {
-        gap: 2.039%;
+        gap: 21px;
     }
 }
 
@@ -200,7 +202,7 @@ html {
 
 @media (min-width: 768px) {
     .header__btn-item--reservation {
-        width: 295.49px;
+        width: 298px;
     }
 }
 
@@ -212,16 +214,28 @@ html {
     margin-bottom: 0.1875rem;
 }
 
+@media (min-width: 768px) {
+    .header__btn-link {
+        font-size: 21px;
+        padding-left: 2px;
+        letter-spacing: -0.3px;
+    }
+
+    .header__btn--contact {
+        padding-left: 8px;
+    }
+}
+
 .header__btn-link .bi {
     margin-left: 3px;
 }
 
 @media (min-width: 768px) {
-    .header__btn-link--contact .bi {
-        margin-left: 14px;
+    .header__btn-item--contact .bi {
+        margin-left: 6px;
     }
 
-    .header__btn-link--reservation .bi {
+    header__btn-item--reservation .bi {
         margin-left: 14px;
     }
 }
@@ -267,7 +281,7 @@ html {
 @media (min-width: 768px) {
     .hero__content {
         justify-content: center;
-        gap: 2.63vw;
+        gap: 33px;
     }
 }
 
@@ -280,8 +294,9 @@ html {
 
 @media (min-width: 768px) {
     .hero__head {
-        max-width: 490px;
+        max-width: 514px;
         width: 100%;
+        margin-top: 4px;
     }
 }
 
@@ -295,7 +310,8 @@ html {
 @media (min-width: 768px) {
     .hero__title {
         font-size: clamp(89.34px, 11.633vw, 122.15px);
-        margin-bottom: 17px;
+        margin-bottom: 10px;
+        margin-left: 6px;
     }
 }
 
@@ -336,6 +352,7 @@ html {
 @media (min-width: 768px) {
     .hero__special-price {
         height: 222px;
+        gap: 20px;
     }
 }
 
@@ -345,6 +362,12 @@ html {
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .hero__limited {
+        gap: 19px;
+    }
 }
 
 .hero__only-now {
@@ -382,6 +405,8 @@ html {
 @media (min-width: 768px) {
     .hero__first-month {
         font-size: clamp(43.65px, 5.684vw, 54px);
+        margin-bottom: 7px;
+        margin-left: 4px;
     }
 }
 
@@ -389,6 +414,12 @@ html {
     color: #fffd7a;
     font-weight: bold;
     margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .hero__price {
+        margin-bottom: 29px;
+    }
 }
 
 .hero__num {
@@ -423,10 +454,10 @@ html {
 
 @media (min-width: 768px) {
     .hero__per-month {
-        font-size: 26.48px;
-        margin-top: 14px;
-        margin-right: 52px;
-        margin-bottom: 54px;
+        font-size: 1.655rem;
+        margin-top: 0.3125rem;
+        margin-right: 3.9375rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -436,7 +467,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__unit {
-        font-size: 17.02px;
+        font-size: 1.0637rem;
     }
 }
 
@@ -464,8 +495,20 @@ html {
 
 @media (min-width: 768px) {
     .hero__privilege-item {
-        height: 70px;
-        font-size: 28px;
+        height: 4.375rem;
+        font-size: 1.75rem;
+    }
+
+    .hero__privilege-item:nth-child(2) {
+        padding-left: 0.1875rem;
+        padding-bottom: 0.0625rem;
+    }
+
+    .hero__privilege-item:last-child {
+        padding-left: 0.125rem;
+        padding-bottom: 0.3125rem;
+        letter-spacing: -0.0938rem;
+        height: 4.25rem;
     }
 }
 
@@ -475,7 +518,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__privilege-item + .hero__privilege-item {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 }
 
@@ -490,7 +533,7 @@ html {
 @media (min-width: 768px) {
     .hero__special-offer {
         height: 315px;
-        padding-top: 49px;
+        padding-top: 39px;
         padding-bottom: 26px;
     }
 }
@@ -508,7 +551,8 @@ html {
 @media (min-width: 768px) {
     .hero__limited-time {
         font-size: 34px;
-        margin-bottom: 25px;
+        margin-bottom: 19px;
+        margin-left: 5px;
     }
 }
 
@@ -535,7 +579,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__limited-time::before {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 }
 
@@ -546,7 +590,11 @@ html {
 
 @media (min-width: 768px) {
     .hero__limited-time::after {
-        margin-left: 14px;
+        margin-left: 21px;
+    }
+
+    .hero__limited-time--exclamation {
+        margin-left: 12px;
     }
 }
 
@@ -701,7 +749,7 @@ html {
     background-color: #fdf0f5;
     padding-top: 39px;
     padding-bottom: 30px;
-    margin-bottom: 31px;
+    margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
@@ -717,7 +765,7 @@ html {
     align-items: center;
     font-size: 18px;
     margin-bottom: 8px;
-    margin-left: 3px;
+    margin-left: 5px;
     height: 20px;
 }
 
@@ -768,6 +816,8 @@ html {
     font-size: 18px;
     color: #fff;
     font-weight: 400;
+    padding-left: 2px;
+    margin-bottom: 3px;
 }
 
 @media (min-width: 768px) {
@@ -778,10 +828,11 @@ html {
 }
 
 .point__item-text {
-    margin-top: 14px;
-    margin-right: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
     margin-left: 21px;
     font-size: 14px;
+    line-height: 1.4714;
 }
 
 @media (min-width: 768px) {
@@ -825,7 +876,7 @@ html {
     justify-content: center;
     align-items: center;
     border: 1px solid #fa7da3;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 @media (min-width: 768px) {
@@ -859,8 +910,8 @@ html {
     font-size: 23px;
     font-weight: 600;
     color: #4d2c1c;
-    margin-top: 18px;
-    margin-bottom: 29px;
+    margin-top: 21px;
+    margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
@@ -873,9 +924,10 @@ html {
 
 .point__whole-img {
     display: block;
-    width: 311px;
+    width: 313px;
     margin: auto;
-    margin-bottom: 51px;
+    margin-bottom: 43px;
+    padding-left: 1px;
 }
 
 @media (min-width: 768px) {
@@ -890,8 +942,9 @@ html {
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
-    margin-top: 31px;
-    margin-bottom: 21px;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    row-gap: 18px;
 }
 
 @media (min-width: 768px) {
@@ -907,12 +960,12 @@ html {
 .point__part-img-txt {
     font-size: 14px;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 .point__support-text {
-    margin-top: 20px;
-    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-bottom: 18px;
 }
 
 @media (min-width: 768px) {
@@ -925,12 +978,13 @@ html {
 /* コース
 ------------------------------------------ */
 .course {
-    margin-top: 50px;
+    margin-top: 47px;
 }
 
-/* .section__sub-title {
-    font-size: 18px;
-} */
+.course .section-title__text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 @media (min-width: 768px) {
     .course .section__sub-title {
@@ -982,13 +1036,16 @@ html {
 }
 
 .course__item-content {
-    width: 310px;
-    margin: 20px auto;
+    width: 311px;
+    margin: 13px auto 18px;
 }
 
 .course__item-txt {
     font-size: 14px;
-    margin-bottom: 3px;
+    margin-bottom: 13px;
+    margin-left: 1px;
+    letter-spacing: 0.14px;
+    line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -1002,9 +1059,14 @@ html {
 ------------------------------------------ */
 .voices {
     background-color: #fdf0f5;
-    padding-top: 52px;
-    padding-bottom: 49px;
-    margin-bottom: 31px;
+    padding-top: 28px;
+    padding-bottom: 14px;
+    margin-bottom: 26px;
+}
+
+.voices .section-title__text {
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 
@@ -1012,8 +1074,8 @@ html {
 .voices__carousel {
     position: relative;
     overflow: hidden;
-    padding-bottom: 35px;
-    margin-top: 26px;
+    padding-bottom: 40px;
+    margin-top: 20px;
 }
 
 .swiper {
@@ -1034,7 +1096,7 @@ html {
 .voices__carousel .swiper-pagination .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
-    margin: 0 15px;
+    margin: 0 7px;
 }
 
 @media (min-width: 768px) {
@@ -1061,13 +1123,15 @@ html {
     background-color: #fa7da3;
     color: #fff;
     height: 46px;
+    padding-left: 4px;
+    padding-bottom: 4px;
 }
 
 .voices__item-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
     height: 142px;
     box-sizing: border-box;
 }
@@ -1079,11 +1143,13 @@ html {
 .voices__item-customer {
     font-size: 16px;
     color: #fa7da3;
+    margin-bottom: 6px;
 }
 
 .voices__item-text {
     font-size: 14px;
     margin-right: 13px;
+    line-height: 1.5;
 }
 
 .footer {
@@ -1102,7 +1168,7 @@ html {
 }
 
 .footer__logo {
-    width: 74px;
+    width: 72px;
 }
 
 @media (min-width: 768px) {
