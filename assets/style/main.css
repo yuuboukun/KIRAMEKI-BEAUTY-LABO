@@ -41,8 +41,10 @@ html {
 
 @media (min-width: 768px) {
     .free-trial__title {
-        font-size: 34px;
-        margin-bottom: 21px;
+        font-size: 2.125rem;
+        margin-bottom: 0.8125rem;
+        letter-spacing: 0.2188rem;
+        padding-left: 0.5rem;
     }
 }
 
@@ -50,19 +52,19 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 80px;
+    width: 21.875rem;
+    height: 5rem;
     background-color: #49c43d;
-    border-radius: 70px;
+    border-radius: 4.375rem;
     margin: auto;
-    padding-left: 64px;
+    padding-left: 4rem;
     letter-spacing: 0.125rem;
 }
 
 @media (min-width: 768px) {
     .free-trial__btn {
-        width: 570.58px;
-        height: 130.1px;
+        width: 35.6613rem;
+        height: 8.1312rem;
     }
 }
 
@@ -70,19 +72,28 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 21px;
+    font-size: 1.3125rem;
     color: #fff;
 }
 
 @media (min-width: 768px) {
     .free-trial__link {
-        font-size: 34px;
+        font-size: 2.125rem;
     }
 }
 
 .free-trial__text {
-    margin-right: 24px;
+    margin-right: 1.5rem;
     line-height: 1.36;
+}
+
+@media (min-width: 768px) {
+    .free-trial__text {
+        letter-spacing: 0.2188rem;
+        margin-left: 1.8125rem;
+        margin-right: 2.3125rem;
+        line-height: 2.75rem;
+    }
 }
 
 .free-trial__line {
@@ -90,12 +101,18 @@ html {
 }
 
 .free-trial__line--second {
-    margin-left: 11px;
+    margin-left: 0.6875rem;
+}
+
+@media (min-width: 768px) {
+    .free-trial__line--second {
+        margin-left: 1.125rem;
+    }
 }
 
 .free-trial__link .bi {
-    margin-right: 17px;
-    margin-bottom: 4px;
+    margin-right: 1.0625rem;
+    margin-bottom: 0.25rem;
 }
 
 /* セクションタイトル */
@@ -630,6 +647,8 @@ html {
     .hero__privilege-title {
         font-size: 32px;
         height: 47px;
+        padding-bottom: 9px;
+        padding-right: 3px;
     }
 }
 
@@ -659,6 +678,8 @@ html {
 @media (min-width: 768px) {
     .hero__privilege-num {
         font-size: 67.93px;
+        margin-left: 35px;
+        margin-bottom: 8px;
     }
 }
 
@@ -676,7 +697,7 @@ html {
 @media (min-width: 768px) {
     .hero__treatment-list {
         font-size: 14px;
-        margin-top: 20px;
+        margin-top: 16px;
     }
 }
 
@@ -684,6 +705,13 @@ html {
 .hero__free-trial {
     padding-top: 0.9375rem;
     padding-bottom: 2.25rem;
+}
+
+@media (min-width: 768px) {
+    .hero__free-trial {
+        padding-top: 3.3125rem;
+        padding-bottom: 3.375rem;
+    }
 }
 
 .hero__trial-content {
@@ -714,10 +742,10 @@ html {
 @media (min-width: 768px) {
     .hero__trial-content-title {
         font-size: 28px;
-        padding-top: 17px;
-        padding-bottom: 19px;
-        margin-top: 46px;
-        margin-bottom: 24px;
+        padding-top: 10px;
+        padding-bottom: 14px;
+        margin-top: 48px;
+        margin-bottom: 16px;
     }
 }
 
@@ -729,7 +757,8 @@ html {
 
 @media (min-width: 768px) {
     .hero__trial-content-detail {
-        font-size: 22.86px;
+        font-size: 1.4287rem;
+        letter-spacing: -0.0187rem;
     }
 }
 
