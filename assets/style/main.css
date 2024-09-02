@@ -34,17 +34,17 @@ html {
     font-weight: 600;
     color: #fa7da3;
     text-align: center;
-    margin-bottom: 0.5625rem;
-    letter-spacing: 0.125rem;
-    margin-left: 0.625rem;
+    margin-bottom: .5625rem;
+    letter-spacing: .125rem;
+    margin-left: .625rem;
 }
 
 @media (min-width: 768px) {
     .free-trial__title {
         font-size: 2.125rem;
-        margin-bottom: 0.8125rem;
-        letter-spacing: 0.2188rem;
-        padding-left: 0.5rem;
+        margin-bottom: .8125rem;
+        letter-spacing: .2188rem;
+        padding-left: .5rem;
     }
 }
 
@@ -58,7 +58,7 @@ html {
     border-radius: 4.375rem;
     margin: auto;
     padding-left: 4rem;
-    letter-spacing: 0.125rem;
+    letter-spacing: .125rem;
 }
 
 @media (min-width: 768px) {
@@ -89,7 +89,7 @@ html {
 
 @media (min-width: 768px) {
     .free-trial__text {
-        letter-spacing: 0.2188rem;
+        letter-spacing: .2188rem;
         margin-left: 1.8125rem;
         margin-right: 2.3125rem;
         line-height: 2.75rem;
@@ -101,7 +101,7 @@ html {
 }
 
 .free-trial__line--second {
-    margin-left: 0.6875rem;
+    margin-left: .6875rem;
 }
 
 @media (min-width: 768px) {
@@ -112,7 +112,7 @@ html {
 
 .free-trial__link .bi {
     margin-right: 1.0625rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: .25rem;
 }
 
 /* セクションタイトル */
@@ -126,21 +126,21 @@ html {
     font-size: 2rem;
     font-weight: bold;
     color: #fa7da3;
-    letter-spacing: 0.0625rem;
+    letter-spacing: .0625rem;
 }
 
 @media (min-width: 768px) {
     .section-title__text {
         font-size: 2.625rem;
-        letter-spacing: -0.0063rem;
+        letter-spacing: -.0063rem;
     }
 
     .section-title__decoration--left {
-        margin-right: 0.625rem;
+        margin-right: .625rem;
     }
 
     .section-title__decoration--right {
-        margin-left: 0.3125rem;
+        margin-left: .3125rem;
     }
 }
 
@@ -164,28 +164,28 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 0.75rem;
-    margin-right: 0.5625rem;
+    margin-left: .75rem;
+    margin-right: .5625rem;
     height: 100%;
 }
 
 @media (min-width: 768px) {
     .header__content {
-        max-width: 1030px;
+        max-width: 64.375rem;
         margin: auto;
     }
 }
 
 .header__logo {
     width: 4.4375rem;
-    margin-bottom: 0.375rem;
+    margin-bottom: .375rem;
 }
 
 @media (min-width: 768px) {
     .header__logo {
-        width: 98px;
-        padding-left: 4px;
-        padding-top: 3px;
+        width: 6.125rem;
+        padding-left: .25rem;
+        padding-top: .1875rem;
     }
 }
 
@@ -196,7 +196,7 @@ html {
 
 @media (min-width: 768px) {
     .header__btn-list {
-        gap: 21px;
+        gap: 1.3125rem;
     }
 }
 
@@ -204,15 +204,15 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: .75rem;
     height: 1.9375rem;
     border-radius: 1.875rem;
 }
 
 @media (min-width: 768px) {
     .header__btn-item {
-        height: 50.36px;
-        font-size: 21.12px;
+        height: 3.1475rem;
+        font-size: 1.32rem;
     }
 }
 
@@ -223,7 +223,7 @@ html {
 
 @media (min-width: 768px) {
     .header__btn-item--contact {
-        width: 189.1px;
+        width: 11.8187rem;
     }
 }
 
@@ -234,41 +234,41 @@ html {
 
 @media (min-width: 768px) {
     .header__btn-item--reservation {
-        width: 298px;
+        width: 18.625rem;
     }
 }
 
 .header__btn-link {
     color: #fff;
-    margin-left: 0.375rem;
-    letter-spacing: 0.025rem;
-    font-size: 0.75rem;
-    margin-bottom: 0.1875rem;
+    margin-left: .375rem;
+    letter-spacing: .025rem;
+    font-size: .75rem;
+    margin-bottom: .1875rem;
 }
 
 @media (min-width: 768px) {
     .header__btn-link {
-        font-size: 21px;
-        padding-left: 2px;
-        letter-spacing: -0.3px;
+        font-size: 1.3125rem;
+        padding-left: .125rem;
+        letter-spacing: -.0187rem;
     }
 
     .header__btn--contact {
-        padding-left: 8px;
+        padding-left: .5rem;
     }
 }
 
 .header__btn-link .bi {
-    margin-left: 3px;
+    margin-left: .1875rem;
 }
 
 @media (min-width: 768px) {
     .header__btn-item--contact .bi {
-        margin-left: 6px;
+        margin-left: 0.375rem;
     }
 
     header__btn-item--reservation .bi {
-        margin-left: 14px;
+        margin-left: 0.875rem;
     }
 }
 
@@ -278,7 +278,7 @@ html {
 
 @media (min-width: 768px) {
     .header__btn--free {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
@@ -296,7 +296,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__image {
-        height: 612px;
+        height: 38.25rem;
     }
 }
 
@@ -313,7 +313,7 @@ html {
 @media (min-width: 768px) {
     .hero__content {
         justify-content: center;
-        gap: 33px;
+        gap: 2.0625rem;
     }
 }
 
@@ -326,9 +326,9 @@ html {
 
 @media (min-width: 768px) {
     .hero__head {
-        max-width: 514px;
+        max-width: 32.125rem;
         width: 100%;
-        margin-top: 4px;
+        margin-top: .25rem;
     }
 }
 
@@ -336,25 +336,26 @@ html {
     font-size: 2.625rem;
     font-weight: 400;
     line-height: 1;
-    margin-bottom: 0.3125rem;
+    margin-bottom: .3125rem;
 }
 
 @media (min-width: 768px) {
     .hero__title {
-        font-size: clamp(89.34px, 11.633vw, 122.15px);
-        margin-bottom: 10px;
-        margin-left: 6px;
+        font-size: clamp(5.5838rem, 10vw, 7.6344rem);
+        /* font-size: clamp(5.5838rem, 11.633vw, 7.6344rem); */
+        margin-bottom: .625rem;
+        margin-left: .375rem;
     }
 }
 
 .hero__note {
     font-size: 1.125rem;
-    margin-left: 0.1875rem;
+    margin-left: .1875rem;
 }
 
 @media (min-width: 768px) {
     .hero__note {
-        font-size: clamp(30px, 3.789vw, 36px);
+        font-size: clamp(1.875rem, 3.789vw, 2.25rem);
         text-align: right;
     }
 }
@@ -365,7 +366,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__body {
-        max-width: 423.02px;
+        max-width: 26.4387rem;
         width: 100%;
     }
 }
@@ -374,31 +375,31 @@ html {
     background-color: rgba(255, 255, 255, .3);
     height: 6.6875rem;
     display: flex;
-    gap: 0.625rem;
+    gap: .625rem;
     justify-content: center;
     align-items: center;
-    box-shadow: 3.536px 3.536px 0px 0px rgba(0, 0, 0, .075);
-    padding-left: 0.1875rem;
+    box-shadow: .221rem .221rem 0 0 rgba(0, 0, 0, .075);
+    padding-left: .1875rem;
 }
 
 @media (min-width: 768px) {
     .hero__special-price {
-        height: 222px;
-        gap: 20px;
+        height: 13.875rem;
+        gap: 1.25rem;
     }
 }
 
 .hero__limited {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: .5rem;
     align-items: center;
     justify-content: center;
 }
 
 @media (min-width: 768px) {
     .hero__limited {
-        gap: 19px;
+        gap: 1.1875rem;
     }
 }
 
@@ -408,11 +409,11 @@ html {
     align-items: center;
     width: 2.9375rem;
     height: 1.4375rem;
-    font-size: 0.8125rem;
+    font-size: .8125rem;
     font-weight: bold;
     color: #fa7da3;
     background-color: #fff;
-    padding-bottom: 0.125rem;
+    padding-bottom: .125rem;
 }
 
 @media (min-width: 768px) {
@@ -430,27 +431,27 @@ html {
     font-weight: bold;
     color: #fff;
     line-height: 1;
-    padding-left: 0.125rem;
-    padding-bottom: 0.1875rem;
+    padding-left: .125rem;
+    padding-bottom: .1875rem;
 }
 
 @media (min-width: 768px) {
     .hero__first-month {
-        font-size: clamp(43.65px, 5.684vw, 54px);
-        margin-bottom: 7px;
-        margin-left: 4px;
+        font-size: clamp(2.7281rem, 5.684vw, 3.375rem);
+        margin-bottom: .4375rem;
+        margin-left: .25rem;
     }
 }
 
 .hero__price {
     color: #fffd7a;
     font-weight: bold;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
 }
 
 @media (min-width: 768px) {
     .hero__price {
-        margin-bottom: 29px;
+        margin-bottom: 1.8125rem;
     }
 }
 
@@ -460,7 +461,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__num {
-        font-size: clamp(138px, 18vw, 171px);
+        font-size: clamp(8.625rem, 18vw, 10.6875rem);
     }
 }
 
@@ -470,15 +471,15 @@ html {
 
 @media (min-width: 768px) {
     .hero__yen {
-        font-size: clamp(65.48px, 8.526vw, 81px);
+        font-size: clamp(4.0925rem, 8.526vw, 81px);
     }
 }
 
 .hero__per-month {
     color: #fff;
-    font-size: 0.875rem;
+    font-size: .875rem;
     text-align: right;
-    margin-top: 0.375rem;
+    margin-top: .375rem;
     margin-right: 1.625rem;
     margin-bottom: 1.4375rem;
     font-family: 'Outfit', sans-serif;
@@ -487,14 +488,14 @@ html {
 @media (min-width: 768px) {
     .hero__per-month {
         font-size: 1.655rem;
-        margin-top: 0.3125rem;
+        margin-top: .3125rem;
         margin-right: 3.9375rem;
         margin-bottom: 3rem;
     }
 }
 
 .hero__unit {
-    font-size: 0.5625rem;
+    font-size: .5625rem;
 }
 
 @media (min-width: 768px) {
@@ -518,7 +519,7 @@ html {
 .hero__privilege-item {
     font-size: 1.125rem;
     height: 2.1875rem;
-    border: 0.0625rem solid #fff;
+    border: .0625rem solid #fff;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -532,20 +533,20 @@ html {
     }
 
     .hero__privilege-item:nth-child(2) {
-        padding-left: 0.1875rem;
-        padding-bottom: 0.0625rem;
+        padding-left: .1875rem;
+        padding-bottom: .0625rem;
     }
 
     .hero__privilege-item:last-child {
-        padding-left: 0.125rem;
-        padding-bottom: 0.3125rem;
-        letter-spacing: -0.0938rem;
+        padding-left: .125rem;
+        padding-bottom: .3125rem;
+        letter-spacing: -.0938rem;
         height: 4.25rem;
     }
 }
 
 .hero__privilege-item + .hero__privilege-item {
-    margin-top: 0.75rem;
+    margin-top: .75rem;
 }
 
 @media (min-width: 768px) {
@@ -564,9 +565,9 @@ html {
 
 @media (min-width: 768px) {
     .hero__special-offer {
-        height: 315px;
-        padding-top: 39px;
-        padding-bottom: 26px;
+        height: 19.6875rem;
+        padding-top: 2.4375rem;
+        padding-bottom: 1.625rem;
     }
 }
 
@@ -576,21 +577,21 @@ html {
     align-items: center;
     font-size: 1.3125rem;
     color: #fa7da3;
-    margin-bottom: 0.6875rem;
-    letter-spacing: 0.0313rem;
+    margin-bottom: .6875rem;
+    letter-spacing: .0313rem;
 }
 
 @media (min-width: 768px) {
     .hero__limited-time {
-        font-size: 34px;
-        margin-bottom: 19px;
-        margin-left: 5px;
+        font-size: 2.125rem;
+        margin-bottom: 1.1875rem;
+        margin-left: .3125rem;
     }
 }
 
 .hero__limited-time::before,
 .hero__limited-time::after {
-    width: 0.125rem;
+    width: .125rem;
     height: 1.6875rem;
     content: '';
     background-color: #fa7da3;
@@ -599,42 +600,42 @@ html {
 @media (min-width: 768px) {
     .hero__limited-time::before,
     .hero__limited-time::after {
-        width: 3.27px;
-        height: 44.2px;
+        width: .2044rem;
+        height: 2.7625rem;
     }
 }
 
 .hero__limited-time::before {
-    margin-right: 0.875rem;
+    margin-right: .875rem;
     transform: rotate(-30deg);
 }
 
 @media (min-width: 768px) {
     .hero__limited-time::before {
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
 }
 
 .hero__limited-time::after {
-    margin-left: 0.8125rem;
+    margin-left: .8125rem;
     transform: rotate(30deg);
 }
 
 @media (min-width: 768px) {
     .hero__limited-time::after {
-        margin-left: 21px;
+        margin-left: 1.3125rem;
     }
 
     .hero__limited-time--exclamation {
-        margin-left: 12px;
+        margin-left: .75rem;
     }
 }
 
 .hero__privilege-detail {
     width: 21.875rem;
     height: 5.8125rem;
-    border-radius: 0.625rem;
-    border: 0.0625rem solid #FA7DA3;
+    border-radius: .625rem;
+    border: .0625rem solid #FA7DA3;
     margin: auto;
     background-color: #fff;
     overflow: hidden;
@@ -642,8 +643,8 @@ html {
 
 @media (min-width: 768px) {
     .hero__privilege-detail {
-        width: 550px;
-        height: 148px;
+        width: 34.375rem;
+        height: 9.25rem;
     }
 }
 
@@ -655,15 +656,15 @@ html {
     font-size: 1.3125rem;
     background-color: #fa7da3;
     color: #fff;
-    padding-bottom: 0.3125rem;
+    padding-bottom: .3125rem;
 }
 
 @media (min-width: 768px) {
     .hero__privilege-title {
-        font-size: 32px;
-        height: 47px;
-        padding-bottom: 9px;
-        padding-right: 3px;
+        font-size: 2rem;
+        height: 2.9375rem;
+        padding-bottom: .5625rem;
+        padding-right: .1875rem;
     }
 }
 
@@ -674,51 +675,52 @@ html {
     height: 3.8125rem;
     font-size: 1.6875rem;
     color: #fa7da3;
-    padding-right: 0.875rem;
+    padding-left: .75rem;
 }
 
 @media (min-width: 768px) {
     .hero__privilege-content {
-        font-size: 43.67px;
-        height: 101px;
+        font-size: 2.7294rem;
+        height: 6.3125rem;
+        padding-right: 1.6875rem;
     }
 }
 
 .hero__privilege-num {
     font-size: 2.625rem;
     font-weight: 600;
-    padding-bottom: 0.375rem;
+    padding-bottom: .375rem;
 }
 
 @media (min-width: 768px) {
     .hero__privilege-num {
-        font-size: 67.93px;
-        margin-left: 35px;
-        margin-bottom: 8px;
+        font-size: 4.2456rem;
+        margin-left: 2.1875rem;
+        margin-bottom: .5rem;
     }
 }
 
 .hero__privilege-txt {
-    padding-top: 0.3125rem;
+    padding-top: .3125rem;
 }
 
 .hero__treatment-list {
-    font-size: 0.625rem;
+    font-size: .625rem;
     text-align: center;
-    margin-top: 0.5rem;
-    margin-right: 0.1875rem;
+    margin-top: .5rem;
+    margin-right: .1875rem;
 }
 
 @media (min-width: 768px) {
     .hero__treatment-list {
-        font-size: 14px;
-        margin-top: 16px;
+        font-size: .875rem;
+        margin-top: 1rem;
     }
 }
 
 /* 無料体験予約 */
 .hero__free-trial {
-    padding-top: 0.9375rem;
+    padding-top: .9375rem;
     padding-bottom: 2.25rem;
 }
 
@@ -736,7 +738,7 @@ html {
 
 @media (min-width: 768px) {
     .hero__trial-content {
-        width: 570.58px;
+        width: 35.6613rem;
     }
 }
 
@@ -745,40 +747,40 @@ html {
     font-size: 1.0625rem;
     font-weight: 600;
     color: #50bfff;
-    border-top: 0.0625rem solid #50bfff;
-    border-bottom: 0.0625rem solid #50bfff;
-    padding-top: 0.375rem;
+    border-top: .0625rem solid #50bfff;
+    border-bottom: .0625rem solid #50bfff;
+    padding-top: .375rem;
     padding-bottom: 0.5rem;
     margin-top: 1.875rem;
-    margin-bottom: 0.5625rem;
-    letter-spacing: 0.125rem;
+    margin-bottom: .5625rem;
+    letter-spacing: .125rem;
 }
 
 @media (min-width: 768px) {
     .hero__trial-content-title {
         font-size: 1.75rem;
-        padding-top: 0.625rem;
-        padding-bottom: 0.875rem;
+        padding-top: .625rem;
+        padding-bottom: .875rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
 }
 
 .hero__trial-content-detail {
-    font-size: 0.875rem;
+    font-size: .875rem;
     line-height: 1.7;
-    margin-left: 0.0625rem;
+    margin-left: .0625rem;
 }
 
 @media (min-width: 768px) {
     .hero__trial-content-detail {
         font-size: 1.4287rem;
-        letter-spacing: -0.0187rem;
+        letter-spacing: -.0187rem;
     }
 }
 
 .hero__trial-time {
-    font-size: 0.6875rem;
+    font-size: .6875rem;
 }
 
 @media (min-width: 768px) {
@@ -800,7 +802,7 @@ html {
     .point {
         padding-top: 3.375rem;
         padding-bottom: 3.75rem;
-        margin-bottom: 3.875rem;
+        margin-bottom: 3.25rem;
     }
 }
 
@@ -809,21 +811,24 @@ html {
     justify-content: center;
     align-items: center;
     font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.3125rem;
+    margin-bottom: .5rem;
+    margin-left: .3125rem;
     height: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .section__sub-title {
-        margin-bottom: 0.8125rem;
+        margin-bottom: .8125rem;
     }
+}
+
+.point__title-image {
+    padding-bottom: .6875rem;
 }
 
 @media (min-width: 768px) {
     .point__title-image {
         width: 16.4375rem;
-        margin-bottom: 0.5625rem;
     }
 
     .point__title-img {
@@ -836,9 +841,9 @@ html {
     font-size: 1.125rem;
     font-weight: 500;
     color: #4d2b1b;
-    padding-left: 0.1875rem;
-    letter-spacing: 0.0625rem;
-    padding-bottom: 0.3125rem;
+    padding-left: .1875rem;
+    letter-spacing: .0625rem;
+    padding-bottom: .3125rem;
 }
 
 .point__content {
@@ -853,8 +858,8 @@ html {
 }
 
 .point__item {
-    border: 0.0625rem solid #fa7da3;
-    border-radius: 0.625rem;
+    border: .0625rem solid #fa7da3;
+    border-radius: .625rem;
     background-color: #fff;
     overflow: hidden;
 }
@@ -867,7 +872,7 @@ html {
 @media (min-width: 768px) {
     .point__free-pass {
         margin-top: 2.875rem;
-        margin-bottom: 49px;
+        margin-bottom: 3.0625rem;
     }
 }
 
@@ -880,23 +885,23 @@ html {
     font-size: 1.125rem;
     color: #fff;
     font-weight: 400;
-    padding-left: 0.125rem;
-    margin-bottom: 0.1875rem;
+    padding-left: .125rem;
+    margin-bottom: .1875rem;
 }
 
 @media (min-width: 768px) {
     .point__item-title {
         font-size: 1.75rem;
         height: 4.625rem;
-        padding-right: 0.125rem;
+        padding-right: .125rem;
     }
 }
 
 .point__item-text {
-    margin-top: 0.9375rem;
-    margin-right: 0.9375rem;
+    margin-top: .9375rem;
+    margin-right: .9375rem;
     margin-left: 1.3125rem;
-    font-size: 0.875rem;
+    font-size: .875rem;
     line-height: 1.4714;
 }
 
@@ -907,17 +912,17 @@ html {
         margin-left: 2.5625rem;
         font-size: 1.3125rem;
         line-height: 2.0313rem;
-        letter-spacing: 0.0063rem;
+        letter-spacing: .0063rem;
     }
 }
 
 .point__item-text--first {
-    letter-spacing: -0.0275rem;
+    letter-spacing: -.0275rem;
 }
 
 @media (min-width: 768px) {
     .point__item-text--first {
-        letter-spacing: 0.0063rem;
+        letter-spacing: .0063rem;
     }
 }
 
@@ -934,8 +939,8 @@ html {
 }
 
 .point__item-course-desc {
-    font-size: 0.875rem;
-    margin-top: 0.3125rem;
+    font-size: .875rem;
+    margin-top: .3125rem;
     margin-bottom: 1.0625rem;
     text-align: center;
 }
@@ -943,54 +948,54 @@ html {
 @media (min-width: 768px) {
     .point__item-course-desc {
         font-size: 1.3125rem;
-        margin-top: 0.5625rem;
+        margin-top: .5625rem;
         margin-bottom: 2.25rem;
     }
 }
 
 .point__item-box {
-    width: 143px;
-    height: 85px;
+    width: 8.9375rem;
+    height: 5.3125rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #fa7da3;
-    margin-top: 13px;
+    border: .0625rem solid #fa7da3;
+    margin-top: .8125rem;
 }
 
 @media (min-width: 768px) {
     .point__item-box {
-        width: 230px;
-        height: 136px;
-        margin-top: 25px;
+        width: 14.375rem;
+        height: 8.5rem;
+        margin-top: 1.5625rem;
     }
 
     .point__item-box img {
-        width: 116px;
-        margin-left: 5px;
-        margin-bottom: 3px;
+        width: 7.25rem;
+        margin-left: .3125rem;
+        margin-bottom: .1875rem;
     }
 }
 
 .point__logo-img {
-    width: 74px;
-    padding-left: 3px;
+    width: 4.625rem;
+    padding-left: .1875rem;
 }
 
 .point__item-course--salon {
     border-color: #433e3f;
     background-color: #fdf0f5;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    padding-left: 1px;
-    padding-bottom: 1px;
+    font-size: 1.125rem;
+    letter-spacing: .0938rem;
+    padding-left: .0625rem;
+    padding-bottom: .0625rem;
 }
 
 @media (min-width: 768px) {
     .point__item-course--salon {
-        font-size: 29px;
+        font-size: 1.8125rem;
         letter-spacing: 0;
-        padding-bottom: 8px;
+        padding-bottom: .5rem;
     }
 }
 
@@ -1000,138 +1005,148 @@ html {
 
 @media (min-width: 768px) {
     .point__choose-plan {
-        margin-bottom: 48px;
+        margin-bottom: 3rem;
     }
 }
 
 .point__item-plan-title {
     text-align: center;
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 600;
     color: #4d2c1c;
-    margin-top: 21px;
-    margin-bottom: 25px;
+    margin-top: 1.3125rem;
+    margin-bottom: 1.5625rem;
 }
 
 @media (min-width: 768px) {
     .point__item-plan-title {
-        font-size: 24px;
-        margin-top: 22px;
-        margin-bottom: 20px;
+        font-size: 1.5rem;
+        margin-top: 1.375rem;
+        margin-bottom: 1.25rem;
     }
 
     .point__part-title {
-        margin-top: 55px;
-        letter-spacing: -0.1px;
-        padding-left: 3px;
+        margin-top: 3.4375rem;
+        letter-spacing: -.0063rem;
+        padding-left: .1875rem;
     }
 }
 
 .point__whole-img {
     display: block;
-    width: 313px;
+    width: 19.5625rem;
     margin: auto;
-    margin-bottom: 43px;
-    padding-left: 1px;
+    margin-bottom: 2.6875rem;
+    padding-left: .0625rem;
 }
 
 @media (min-width: 768px) {
     .point__whole-img {
-        width: 585px;
-        padding-left: 28px;
+        width: 36.5625rem;
+        padding-left: 1.75rem;
     }
 }
 
 .point__part-images {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: .75rem;
     flex-wrap: wrap;
-    margin-top: 27px;
-    margin-bottom: 17px;
-    row-gap: 18px;
+    margin-top: 1.6875rem;
+    margin-bottom: 1.0625rem;
+    row-gap: 1.125rem;
 }
 
 @media (min-width: 768px) {
     .point__part-images {
-        margin-bottom: 33px;
+        margin-bottom: 2.0625rem;
     }
 }
 
 .point__part-img {
-    width: 100px;
+    width: 6.25rem;
 }
 
 .point__part-img-txt {
-    font-size: 14px;
+    font-size: .875rem;
     text-align: center;
-    margin-top: 4px;
+    margin-top: .25rem;
 }
 
 .point__support-text {
-    margin-top: 15px;
-    margin-bottom: 18px;
+    margin-top: .9375rem;
+    margin-bottom: 1.125rem;
 }
 
 @media (min-width: 768px) {
     .point__support-text {
-        margin-top: 27px;
-        margin-bottom: 29px;
+        margin-top: 1.6875rem;
+        margin-bottom: 1.8125rem;
     }
 
     .point__support-title {
-        padding-left: 7px;
+        padding-left: .4375rem;
     }
 }
 
 /* コース
 ------------------------------------------ */
 .course {
-    margin-top: 47px;
+    margin-top: 2.9375rem;
+}
+
+
+@media (min-width: 768px) {
+    .course {
+        margin-top: 3.875rem;
+    }
 }
 
 .course .section-title__text {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: .3125rem;
+    padding-right: .3125rem;
 }
 
 @media (min-width: 768px) {
     .course .section__sub-title {
-        font-size: 24px;
+        font-size: 1.5rem;
+        margin-bottom: .9375rem;
     }
 }
 
 .course__content {
-    width: 350px;
-    margin: 24px auto 20px;
+    width: 21.875rem;
+    margin: 1.5rem auto 1.25rem;
     display: flex;
     flex-direction: column;
-    gap: 31px;
+    gap: 1.9375rem;
 }
 
 @media (min-width: 768px) {
     .course__content {
         flex-direction: row;
-        width: 731px;
+        width: 45.6875rem;
+        margin-top: 2.4375rem;
+        margin-bottom: 3.875rem;
     }
 }
 
 .course__item {
-    border: 1px solid #FA7DA3;
-    border-radius: 10px;
+    border: .0625rem solid #FA7DA3;
+    border-radius: .625rem;
     overflow: hidden;
 }
 
 @media (min-width: 768px) {
     .course__item {
-        width: 350px;
+        width: 21.875rem;
     }
 }
 
 .course__item-title {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #fa7da3;
-    height: 46px;
+    height: 2.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1140,27 +1155,40 @@ html {
 
 @media (min-width: 768px) {
     .course__item-title {
-        font-size: 28px;
+        font-size: 1.75rem;
+        height: 3.75rem;
     }
 }
 
 .course__item-content {
-    width: 311px;
-    margin: 13px auto 18px;
+    width: 19.4375rem;
+    margin: .8125rem auto 1.125rem;
+}
+
+@media (min-width: 768px) {
+    .course__item-content {
+        margin-top: .625rem;
+    }
 }
 
 .course__item-txt {
-    font-size: 14px;
-    margin-bottom: 13px;
-    margin-left: 1px;
-    letter-spacing: 0.14px;
+    font-size: .875rem;
+    margin-bottom: .8125rem;
+    margin-left: .0625rem;
+    letter-spacing: .0088rem;
     line-height: 1.5;
 }
 
 @media (min-width: 768px) {
     .course__item-txt {
-        font-size: 17px;
-        margin-bottom: 16px;
+        font-size: 1.0625rem;
+        margin-bottom: .875rem;
+        letter-spacing: .075rem;
+        line-height: 1.588;
+    }
+
+    .course__item-txt-line {
+        display: block;
     }
 }
 
@@ -1168,28 +1196,47 @@ html {
 ------------------------------------------ */
 .voices {
     background-color: #fdf0f5;
-    padding-top: 28px;
-    padding-bottom: 14px;
-    margin-bottom: 26px;
+    padding-top: 1.75rem;
+    padding-bottom: .875rem;
+    margin-bottom: 1.625rem;
+}
+
+@media (min-width: 768px) {
+    .voices {
+        padding-top: 2.375rem;
+        padding-bottom: 2.8125rem;
+        margin-bottom: 3.1875rem;
+    }
 }
 
 .voices .section-title__text {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: .8125rem;
+    padding-right: .8125rem;
 }
 
+@media (min-width: 768px) {
+    .voices .section-title__decoration--right {
+        margin-left: .6875rem;
+    }
+}
 
 /* スイーパー */
 .voices__carousel {
     position: relative;
     overflow: hidden;
-    padding-bottom: 40px;
-    margin-top: 20px;
+    padding-bottom: 2.5rem;
+    margin-top: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .voices__carousel {
+        margin-top: 2.25rem;
+    }
 }
 
 .swiper {
-    width: 310px;
-    height: 188px;
+    width: 19.375rem;
+    height: 11.75rem;
     overflow: visible;
 }
 
@@ -1203,9 +1250,9 @@ html {
 }
 
 .voices__carousel .swiper-pagination .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
-    margin: 0 7px;
+    width: .9375rem;
+    height: .9375rem;
+    margin: 0 .4375rem;
 }
 
 @media (min-width: 768px) {
@@ -1217,8 +1264,8 @@ html {
 .voices__item {
     width: 100%;
     height: 100%;
-    border: 1px solid #fa7da3;
-    border-radius: 10px;
+    border: .0625rem solid #fa7da3;
+    border-radius: .625rem;
     overflow: hidden;
     box-sizing: border-box;
     background-color: #fff;
@@ -1228,61 +1275,84 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: #fa7da3;
     color: #fff;
-    height: 46px;
-    padding-left: 4px;
-    padding-bottom: 4px;
+    height: 2.875rem;
+    padding-left: .25rem;
+    padding-bottom: .25rem;
 }
 
 .voices__item-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    height: 142px;
+    gap: 1rem;
+    height: 8.875rem;
     box-sizing: border-box;
 }
 
+.voices__item-content--facial {
+    gap: 1.1875rem;
+}
+
+.voices__item-content--body {
+    gap: 1.5rem;
+}
+
 .voices__item-img {
-    margin-left: 18px;
+    margin-left: 1.125rem;
+}
+
+.voices__item-img--facial {
+    margin-left: 1.375rem;
+    margin-bottom: .375rem;
+}
+
+.voices__item-img--body {
+    margin-left: 1.8125rem;
+    margin-bottom: .5625rem;
 }
 
 .voices__item-customer {
-    font-size: 16px;
+    font-size: 1rem;
     color: #fa7da3;
-    margin-bottom: 6px;
+    margin-bottom: .375rem;
 }
 
 .voices__item-text {
-    font-size: 14px;
-    margin-right: 13px;
+    font-size: .875rem;
+    margin-right: .8125rem;
     line-height: 1.5;
 }
 
+/* フッター
+------------------------------------------ */
+
 .footer {
     background-color: #fa7da3;
-    height: 64px;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 42px;
+    margin-top: 2.625rem;
 }
 
 @media (min-width: 768px) {
     .footer {
-        height: 128px;
+        height: 8rem;
+        margin-top: 4.125rem;
     }
 }
 
 .footer__logo {
-    width: 72px;
+    width: 4.5rem;
 }
 
 @media (min-width: 768px) {
     .footer__logo {
-        width: 147px;
+        width: 9rem;
+        margin-top: .3125rem;
     }
 
     .footer__logo-img {
