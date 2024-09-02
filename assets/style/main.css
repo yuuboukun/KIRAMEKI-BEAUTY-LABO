@@ -129,6 +129,21 @@ html {
     letter-spacing: 0.0625rem;
 }
 
+@media (min-width: 768px) {
+    .section-title__text {
+        font-size: 2.625rem;
+        letter-spacing: -0.0063rem;
+    }
+
+    .section-title__decoration--left {
+        margin-right: 0.625rem;
+    }
+
+    .section-title__decoration--right {
+        margin-left: 0.3125rem;
+    }
+}
+
 /* ヘッダー
 ------------------------------------------ */
 .header {
@@ -741,11 +756,11 @@ html {
 
 @media (min-width: 768px) {
     .hero__trial-content-title {
-        font-size: 28px;
-        padding-top: 10px;
-        padding-bottom: 14px;
-        margin-top: 48px;
-        margin-bottom: 16px;
+        font-size: 1.75rem;
+        padding-top: 0.625rem;
+        padding-bottom: 0.875rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -763,12 +778,12 @@ html {
 }
 
 .hero__trial-time {
-    font-size: 11px;
+    font-size: 0.6875rem;
 }
 
 @media (min-width: 768px) {
     .hero__trial-time {
-        font-size: 17.96px;
+        font-size: 1.1225rem;
     }
 }
 
@@ -776,15 +791,16 @@ html {
 ------------------------------------------ */
 .point {
     background-color: #fdf0f5;
-    padding-top: 39px;
-    padding-bottom: 30px;
-    margin-bottom: 25px;
+    padding-top: 2.4375rem;
+    padding-bottom: 1.875rem;
+    margin-bottom: 1.5625rem;
 }
 
 @media (min-width: 768px) {
     .point {
-        padding-top: 54px;
-        margin-bottom: 62px;
+        padding-top: 3.375rem;
+        padding-bottom: 3.75rem;
+        margin-bottom: 3.875rem;
     }
 }
 
@@ -792,109 +808,143 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    margin-bottom: 8px;
-    margin-left: 5px;
-    height: 20px;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.3125rem;
+    height: 1.25rem;
 }
 
 @media (min-width: 768px) {
     .section__sub-title {
-        margin-bottom: 27px;
+        margin-bottom: 0.8125rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .point__title-image {
+        width: 16.4375rem;
+        margin-bottom: 0.5625rem;
+    }
+
+    .point__title-img {
+        width: 100%;
+        height: auto;
     }
 }
 
 .point__title-text {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     color: #4d2b1b;
-    padding-left: 3px;
-    letter-spacing: 1px;
-    padding-bottom: 5px;
+    padding-left: 0.1875rem;
+    letter-spacing: 0.0625rem;
+    padding-bottom: 0.3125rem;
 }
 
 .point__content {
-    width: 350px;
+    width: 21.875rem;
     margin: auto;
 }
 
 @media (min-width: 768px) {
     .point__content {
-        width: 780px;
+        width: 48.75rem;
     }
 }
 
 .point__item {
-    border: 1px solid #fa7da3;
-    border-radius: 10px;
+    border: 0.0625rem solid #fa7da3;
+    border-radius: 0.625rem;
     background-color: #fff;
     overflow: hidden;
 }
 
 .point__free-pass {
-    margin-top: 23px;
-    margin-bottom: 31px;
+    margin-top: 1.4375rem;
+    margin-bottom: 1.9375rem;
+}
+
+@media (min-width: 768px) {
+    .point__free-pass {
+        margin-top: 2.875rem;
+        margin-bottom: 49px;
+    }
 }
 
 .point__item-title {
-    height: 45px;
+    height: 2.8125rem;
     background-color: #fa7da3;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #fff;
     font-weight: 400;
-    padding-left: 2px;
-    margin-bottom: 3px;
+    padding-left: 0.125rem;
+    margin-bottom: 0.1875rem;
 }
 
 @media (min-width: 768px) {
     .point__item-title {
-        font-size: 28px;
-        height: 74px;
+        font-size: 1.75rem;
+        height: 4.625rem;
+        padding-right: 0.125rem;
     }
 }
 
 .point__item-text {
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-left: 21px;
-    font-size: 14px;
+    margin-top: 0.9375rem;
+    margin-right: 0.9375rem;
+    margin-left: 1.3125rem;
+    font-size: 0.875rem;
     line-height: 1.4714;
 }
 
 @media (min-width: 768px) {
     .point__item-text {
-        margin-top: 33px;
-        margin-right: 39px;
-        margin-left: 41px;
-        font-size: 21px;
+        margin-top: 1.5625rem;
+        margin-right: 2.4375rem;
+        margin-left: 2.5625rem;
+        font-size: 1.3125rem;
+        line-height: 2.0313rem;
+        letter-spacing: 0.0063rem;
     }
 }
 
 .point__item-text--first {
-    letter-spacing: -0.44px;
+    letter-spacing: -0.0275rem;
+}
+
+@media (min-width: 768px) {
+    .point__item-text--first {
+        letter-spacing: 0.0063rem;
+    }
 }
 
 .point__item-course {
     display: flex;
     justify-content: center;
-    gap: 22px;
+    gap: 1.375rem;
+}
+
+@media (min-width: 768px) {
+    .point__item-course {
+        gap: 2.75rem;
+    }
 }
 
 .point__item-course-desc {
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 17px;
+    font-size: 0.875rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 1.0625rem;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .point__item-course-desc {
-        font-size: 21px;
-        margin-top: 16px;
-        margin-bottom: 43px;
+        font-size: 1.3125rem;
+        margin-top: 0.5625rem;
+        margin-bottom: 2.25rem;
     }
 }
 
@@ -912,7 +962,13 @@ html {
     .point__item-box {
         width: 230px;
         height: 136px;
-        margin-top: 28px;
+        margin-top: 25px;
+    }
+
+    .point__item-box img {
+        width: 116px;
+        margin-left: 5px;
+        margin-bottom: 3px;
     }
 }
 
@@ -930,8 +986,22 @@ html {
     padding-bottom: 1px;
 }
 
+@media (min-width: 768px) {
+    .point__item-course--salon {
+        font-size: 29px;
+        letter-spacing: 0;
+        padding-bottom: 8px;
+    }
+}
+
 .point__choose-plan {
     margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .point__choose-plan {
+        margin-bottom: 48px;
+    }
 }
 
 .point__item-plan-title {
@@ -946,8 +1016,14 @@ html {
 @media (min-width: 768px) {
     .point__item-plan-title {
         font-size: 24px;
-        margin-top: 13px;
-        margin-bottom: 24px;
+        margin-top: 22px;
+        margin-bottom: 20px;
+    }
+
+    .point__part-title {
+        margin-top: 55px;
+        letter-spacing: -0.1px;
+        padding-left: 3px;
     }
 }
 
@@ -961,8 +1037,8 @@ html {
 
 @media (min-width: 768px) {
     .point__whole-img {
-        width: 533px;
-        margin-bottom: 62px;
+        width: 585px;
+        padding-left: 28px;
     }
 }
 
@@ -978,7 +1054,7 @@ html {
 
 @media (min-width: 768px) {
     .point__part-images {
-        margin-bottom: 38px;
+        margin-bottom: 33px;
     }
 }
 
@@ -999,8 +1075,12 @@ html {
 
 @media (min-width: 768px) {
     .point__support-text {
-        margin-top: 34px;
-        margin-bottom: 21px;
+        margin-top: 27px;
+        margin-bottom: 29px;
+    }
+
+    .point__support-title {
+        padding-left: 7px;
     }
 }
 
